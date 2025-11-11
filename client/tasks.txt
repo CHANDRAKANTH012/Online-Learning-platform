@@ -1,3 +1,37 @@
 Front-end part
 
+Perform the tasks within the given deadline
 
+
+whenever you recieve a task on Clickup , Here's what you have to do:
+    - Clone the Repo : 'git clone https://github.com/CHANDRAKANTH012/Online-Learning-platform.git'
+    - Create a New Branch : 'git checkout -b Your_Task_Id/feature/login-page'
+    - Perform the given task :
+        - Check what’s changed: git status
+    - Add your changes: 'git add .'
+                        'git commit -m "message" '
+    - Push Your Branch to GitHub: 'git push origin Your_Task_Id/feature/login-page'
+    - Create a Pull Request (PR):
+        1. Go to your repository on GitHub.
+        2. You’ll see a “Compare & Pull Request” button.
+        3. Click it → write a meaningful title and description of your work.
+        4. Select base branch = main and compare branch = your branch.
+        5. Submit the PR.
+    - Code Review Process:
+        Other collaborators can:
+            Review your PR.
+            Add comments or suggest changes.
+            Approve or request modifications.
+            You can update your branch (e.g., fix comments) and push again:
+                git add .
+                git commit -m "Fixed review comments"
+                git push
+    - Merge the Pull Request
+        Once approved:
+            Click Merge Pull Request on GitHub.
+            Optionally, delete the branch after merging to keep things clean.
+    - Sync Your Local Repo
+        After merges happen on main:
+            git checkout main
+            git pull origin main
+        This ensures your local copy is up to date before creating a new branch.

@@ -5,7 +5,8 @@ import './App.css'
 function App() {
   return (
     <>
-      Hello World
+      <div className='bg-sky-400'>Hello world</div>
+      <p>Hello from p</p>
     </>
   )
 }
